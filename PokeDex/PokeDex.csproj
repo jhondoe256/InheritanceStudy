@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PokeDex.Data\PokeDex.Data.csproj">
+      <Project>{4f4f90f6-fdfd-41e0-b982-999682d9d52a}</Project>
+      <Name>PokeDex.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
